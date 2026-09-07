@@ -27,7 +27,7 @@ Created for the 2026 Formlabs Hackathon. I designed the electronics for a versio
 
 The design is based around two 10x10 matrices of pogo-pin targets. For any given shot, current is sourced to one column and sinked from one row, allowing us to target individual squares. IO usage is further reduced with 4:16 decoders, with the bonus of being a hardware guarantee that only one square is targeted at a time. At the start of each game, current is reduced while every square is scanned - by monitoring current, we can determine which squares are occupied so we can tailor animations to the game state. 
 
-Two encoders and an enticing red button serve as your means of targeting enemy squares, and an addressable LED screen informs you of hits and misses. 
+Placing ships is intuitive thanks to indexing features and a magnetic backing plate. Two encoders and an enticing red button serve as your means of targeting enemy squares, and an addressable LED screen informs you of hits and misses. 
 
 **Safety!** A polycarbonate shield covers the game board to prevent capacitor shells from becoming projectiles, and exhaust fans with carbon filters help reduce the fumes from evaporated electrolyte. 
 {: .notice--warning}
