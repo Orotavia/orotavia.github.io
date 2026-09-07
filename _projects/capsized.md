@@ -6,6 +6,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/capsized_small.png"
+date: 2026-01-01 01:01:01
 #categories:
 #  - Blog
 #tags:
@@ -16,6 +17,8 @@ header:
 The classic game of Battleship but more exciting (2026)
 
 <!--more-->
+
+![Image](/assets/images/capsized_small.png)
 
 Created for the 2026 Formlabs Hackathon. I designed the electronics for a version of Battleship in which your shot explodes a reverse-biased electrolytic capacitor on the opponent's ship if you hit. It makes for a pretty nerve-wracking game, not knowing when to expect the pop!
 

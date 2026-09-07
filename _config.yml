@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Nick Breeman"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/me.jpg"
   bio    : "Engineering projects from throughout the years"
   links:
     - label: "GitHub"

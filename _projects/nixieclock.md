@@ -5,6 +5,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/nixie_front.jpg"
+date: 2019-01-01 01:01:01
 #categories:
 #  - Blog
 #tags:
