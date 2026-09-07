@@ -99,6 +99,11 @@ defaults:
   - scope:
       path: ""
       type: collection
+      order:
+        - capsized.md
+        - blekeypad.md
+        - deej.md
+        - nixieclock.md
     values:
       entries_layout: grid
       author_profile: true
