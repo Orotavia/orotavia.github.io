@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Nick Breeman"
   avatar : "/assets/images/me.jpg"
-  bio    : "Engineering projects from throughout the years"
+  bio    : "Personal technical projects from throughout the years"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -123,10 +123,10 @@ collections:
     permalink: /:collection/:path/
     output: true
     order:
-      - capsized.md
-      - blekeypad.md
-      - deej.md
-      - nixieclock.md
+      - _projects/capsized.md
+      - _projects/blekeypad.md
+      - _projects/deej.md
+      - _projects/nixieclock.md
 
 
 category_archive:
