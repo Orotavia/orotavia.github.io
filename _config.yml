@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: breenick
+title: breenick engineering projects
 email: breeman.nick@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A finely curated collection of technical projects designed by an embedded hardware engineer in the Cambridge, MA area!
 github_username: orotavia
 minimal_mistakes_skin: dirt
 search: true
@@ -64,19 +62,19 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/orotavia"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/nickbreeman/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/orotavia"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/nickbreeman/"
 
 defaults:
   # _posts
@@ -119,7 +117,6 @@ collections:
   projects:
     permalink: /:collection/:path/
     output: true
-
 
 
 category_archive:

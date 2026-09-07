@@ -3,6 +3,8 @@ title: "deej Audio Controller"
 collection:
     - projects
 excerpt_separator: <!--more-->
+header:
+    teaser: "/assets/images/deej_cropped.jpg"
 #categories:
 #  - Blog
 #tags:
@@ -10,19 +12,19 @@ excerpt_separator: <!--more-->
 #  - notice
 ---
 
-deej nuts
+Custom hardware for per-application volume control (2020)
 
 <!--more-->
 
-'deej' is a piece of open-source software written by GitHub user omriharel.
+'deej' is a piece of open-source software written by omriharel (https://github.com/omriharel/deej). It allows a user to control the volume of individual applications in Windows over a serial interface (usually through USB). Each channel controls one or more applications as configured by a YAML file.
 
-https://github.com/omriharel/deej
+![Image](/assets/images/deej_gif.gif)
 
-It allows a user to control the volume of individual applications in Windows over a serial interface (usually through USB). Each channel controls one or more applications as configured by a YAML file.
-
-By using rotary encoders, which are read into the microcontroller with interrupts, I am able to control the volume in user-defined steps. Due to the encoders being incremental as oppose to absolute, the values of each channel are saved to EEPROM after a configurable delay. This is done only when no change is seen in several seconds so as to avoid unnecessary wear of the EEPROM.
+My custom version of the hardware uses rotary encoders, which are read by the microcontroller with interrupts, controlling volume in user-defined steps. Due to the encoders being incremental as opposed to absolute, the values of each channel are saved to EEPROM after a configurable delay. This is done only when no change is seen in several seconds so as to avoid unnecessary wear of the EEPROM.
 
 The user can interrupt the stream of channel volumes with input from a serial terminal in order to configure a number of parameters through UART commands. 
 
-**Info Notice:** Lorem ipsum dolor sit amet, [consectetur adipiscing elit](#). Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+![Image](/assets/images/deej_apart.jpg)
+
+**How economical!** The PCB was designed for single-side assembly, both for ease of soldering AND to be able to use the back as a face plate.
 {: .notice--info}
