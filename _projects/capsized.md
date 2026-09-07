@@ -6,7 +6,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/capsized_small.png"
-date: 2026-01-01 01:01:01
+#date: 2026-01-01 01:01:01
 #categories:
 #  - Blog
 #tags:

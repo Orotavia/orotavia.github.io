@@ -5,7 +5,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/nixie_front.jpg"
-date: 2019-01-01 01:01:01
+#date: 2019-01-01 01:01:01
 #categories:
 #  - Blog
 #tags:
@@ -17,7 +17,9 @@ Four digit clock based around the IN-18 Nixie Tube (2019)
 
 <!--more-->
 
-At the heart of this clock is a 12V to 170V boost converter, by which four (very old) IN-18 Nixie tubes are powered. At startup the high voltage 'strikes' the cold filaments, then current starts to flow and the maintaining voltage is reduced by a resistor. 32 filaments are driven by a HV open-drain shift register which interfaces with the AVR MCU via level shifter.
+![Image](/assets/images/nixie_front.jpg)
+
+At the core of this clock is a 12V to 170V boost converter, by which four (very old) IN-18 Nixie tubes are powered. At startup the high voltage 'strikes' the cold filaments, then current starts to flow and the maintaining voltage is reduced by a resistor. 32 filaments are driven by a HV open-drain shift register which interfaces with the AVR MCU via level shifter.
 
 The time is maintained with an RTC with a battery backup (CR2032 coin cell). There is a parser that allows the time, date, and format to be set through UART commands. 
 
