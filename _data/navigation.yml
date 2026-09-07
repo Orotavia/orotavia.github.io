@@ -1,0 +1,9 @@
+main:
+  - title: "Capsized Battleship Game"
+    url: /capsized/
+  - title: "Deej Audio Controller"
+    url: /deej/
+  - title: "Nixie Clock"
+    url: /nixieclock/
+  - title: "BLE Keypad"
+    url: /blekeypad/
