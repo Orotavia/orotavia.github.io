@@ -118,10 +118,10 @@ collections:
     permalink: /:collection/:path/
     output: true
     order:
-      - /_projects/capsized.md
-      - /_projects/blekeypad.md
-      - /_projects/deej.md
-      - /_projects/nixieclock.md
+      - /projects/capsized.md
+      - /projects/blekeypad.md
+      - /projects/deej.md
+      - /projects/nixieclock.md
 
 
 collection_archive:
