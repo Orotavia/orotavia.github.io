@@ -118,12 +118,15 @@ collections:
     permalink: /:collection/:path/
     output: true
     order:
-      - capsized.md
-      - blekeypad.md
-      - deej.md
-      - nixieclock.md
+      - /_projects/capsized.md
+      - /_projects/blekeypad.md
+      - /_projects/deej.md
+      - /_projects/nixieclock.md
 
 
+collection_archive:
+  type: liquid
+  path: /projects/
 category_archive:
   type: liquid
   path: /categories/
