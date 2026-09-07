@@ -117,11 +117,12 @@ collections:
   projects:
     permalink: /:collection/:path/
     output: true
-    order:
-      - capsized.md
-      - blekeypad.md
-      - deej.md
-      - nixieclock.md
+    sort_by: index
+    #order:
+    #  - capsized.md
+    #  - blekeypad.md
+    #  - deej.md
+    #  - nixieclock.md
 
 
 collection_archive:

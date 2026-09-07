@@ -5,6 +5,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/blekeypad.JPG"
+index: 2
 #date: 2022-01-01 01:01:01
 #  - Blog
 #tags:

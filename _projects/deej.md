@@ -5,6 +5,7 @@ collection:
 excerpt_separator: <!--more-->
 header:
     teaser: "/assets/images/deej_cropped.jpg"
+index: 3
 #date: 2020-01-01 01:01:01
 #categories:
 #  - Blog
